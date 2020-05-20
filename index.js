@@ -30,6 +30,7 @@ app.use(
     }, 'single')
 );
 // ngelink ke beranda masing masing
+app.get('/', expressku.home);
 app.get('/ecommerce_tugas', expressku.home);
 app.get('/ecommerce_tugas/home', expressku.home);
 app.get('/ecommerce_tugas/product', expressku.products);
